@@ -1,0 +1,31 @@
+name: CD Pipeline
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generar mock crediticio
+        run: python scripts/generate_mock_credit_data.py
+
+      - name: Ejecutar pipeline
+        run: python -m src.orchestrator
+
+      - name: Simular despliegue a staging
+        run: echo "Despliegue manual ejecutado correctamente"

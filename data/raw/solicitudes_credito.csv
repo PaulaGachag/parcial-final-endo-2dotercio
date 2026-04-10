@@ -1,0 +1,11 @@
+cedula,nombre,region,ingresos,monto_solicitado,plazo_meses,historial_pagos
+1001,Ana,Centro,2500000,5000000,12,bueno
+1002,Luis,Norte,1800000,3000000,10,regular
+1003,Camila,Sur,3200000,7000000,18,bueno
+1004,Pedro,Oriente,1500000,2000000,8,malo
+1005,Sofia,Occidente,2800000,6000000,14,bueno
+1006,Mario,Centro,1200000,1500000,6,regular
+1007,Laura,Norte,4000000,9000000,24,bueno
+1008,Diego,Sur,1700000,2500000,12,malo
+1009,Valentina,Oriente,3500000,6500000,16,bueno
+1010,Andres,Occidente,2100000,4000000,10,regular

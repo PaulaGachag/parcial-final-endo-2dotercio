@@ -1,0 +1,24 @@
+{"timestamp": "2026-04-10T18:09:59.367096", "level": "INFO", "message": "Inicio del pipeline", "extra": {}}
+{"timestamp": "2026-04-10T18:09:59.416801", "level": "INFO", "message": "Datos cargados", "extra": {}}
+{"timestamp": "2026-04-10T18:09:59.419946", "level": "INFO", "message": "Esquema validado", "extra": {}}
+{"timestamp": "2026-04-10T18:09:59.442551", "level": "INFO", "message": "Calidad validada", "extra": {}}
+{"timestamp": "2026-04-10T18:09:59.454649", "level": "INFO", "message": "Transformación completada", "extra": {}}
+{"timestamp": "2026-04-10T18:09:59.468290", "level": "INFO", "message": "Enriquecimiento completado", "extra": {}}
+{"timestamp": "2026-04-10T18:09:59.485176", "level": "INFO", "message": "Reporte generado", "extra": {"output": "data/outputs/reporte_pipeline.json"}}
+{"timestamp": "2026-04-10T18:09:59.485732", "level": "INFO", "message": "Pipeline completado exitosamente", "extra": {}}
+{"timestamp": "2026-04-10T18:11:51.285529", "level": "INFO", "message": "Inicio del pipeline", "extra": {}}
+{"timestamp": "2026-04-10T18:11:51.291562", "level": "INFO", "message": "Datos cargados", "extra": {}}
+{"timestamp": "2026-04-10T18:11:51.292672", "level": "INFO", "message": "Esquema validado", "extra": {}}
+{"timestamp": "2026-04-10T18:11:51.294962", "level": "INFO", "message": "Calidad validada", "extra": {}}
+{"timestamp": "2026-04-10T18:11:51.298042", "level": "INFO", "message": "Transformación completada", "extra": {}}
+{"timestamp": "2026-04-10T18:11:51.300687", "level": "INFO", "message": "Enriquecimiento completado", "extra": {}}
+{"timestamp": "2026-04-10T18:11:51.309429", "level": "INFO", "message": "Reporte generado", "extra": {"output": "data/outputs/reporte_pipeline.json"}}
+{"timestamp": "2026-04-10T18:11:51.309979", "level": "INFO", "message": "Pipeline completado exitosamente", "extra": {}}
+{"timestamp": "2026-04-10T18:12:38.025674", "level": "INFO", "message": "Inicio del pipeline", "extra": {}}
+{"timestamp": "2026-04-10T18:12:38.031910", "level": "INFO", "message": "Datos cargados", "extra": {}}
+{"timestamp": "2026-04-10T18:12:38.033011", "level": "INFO", "message": "Esquema validado", "extra": {}}
+{"timestamp": "2026-04-10T18:12:38.038412", "level": "INFO", "message": "Calidad validada", "extra": {}}
+{"timestamp": "2026-04-10T18:12:38.043103", "level": "INFO", "message": "Transformación completada", "extra": {}}
+{"timestamp": "2026-04-10T18:12:38.046513", "level": "INFO", "message": "Enriquecimiento completado", "extra": {}}
+{"timestamp": "2026-04-10T18:12:38.058324", "level": "INFO", "message": "Reporte generado", "extra": {"output": "data/outputs/reporte_pipeline.json"}}
+{"timestamp": "2026-04-10T18:12:38.058874", "level": "INFO", "message": "Pipeline completado exitosamente", "extra": {}}
