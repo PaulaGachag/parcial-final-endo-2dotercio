@@ -129,41 +129,6 @@ En el caso el problema afectó a una región específica por eso este KPI sería
 ## 2.1 Diagrama del pipeline con paradigma ELT
 
 A continuación se presenta un diagrama simple del pipeline bajo el enfoque ELT.
-
-```text
-+----------------------+      +----------------------+
-| API de transacciones |      | CSV de clientes      |
-+----------+-----------+      +----------+-----------+
-           |                             |
-           +-------------+---------------+
-                         |
-                         v
-                 +---------------+
-                 |   Data Lake   |
-                 |  datos crudos |
-                 +-------+-------+
-                         |
-                         v
-         +----------------------------------+
-         | Transformaciones / validaciones  |
-         | limpieza, reglas, enriquecimiento|
-         +----------------+-----------------+
-                          |
-                          v
-                  +---------------+
-                  | Data Warehouse|
-                  | datos curados |
-                  +-------+-------+
-                          |
-              +-----------+-----------+
-              |                       |
-              v                       v
-     +----------------+      +------------------+
-     | Reportes/BI    |      | Modelos ML       |
-     | dashboards     |      | scoring/riesgo   |
-     +----------------+      +------------------+
----
-
 ## 2.2 ¿Por que elegir ETL sobre ETL startup
 
 Para este caso, considero que ELT es una mejor opción que ETL, especialmente para una startup de microcréditos que puede crecer rápido, cambiar reglas con frecuencia y necesitar rehacer análisis cuando encuentre errores
@@ -495,3 +460,37 @@ Permite saber si la fuente está respondiendo bien o si el sistema está falland
 Qué mide: cuánto tarda el sistema en responder cuando el dato viene de caché.
 Por qué importa:
 La caché debe hacer el sistema más eficiente. Si también se vuelve lenta, deja de cumplir su propósito.
+``` text
++----------------------+      +----------------------+
+| API de transacciones |      | CSV de clientes      |
++----------+-----------+      +----------+-----------+
+           |                             |
+           +-------------+---------------+
+                         |
+                         v
+                 +---------------+
+                 |   Data Lake   |
+                 |  datos crudos |
+                 +-------+-------+
+                         |
+                         v
+         +----------------------------------+
+         | Transformaciones / validaciones  |
+         | limpieza, reglas, enriquecimiento|
+         +----------------+-----------------+
+                          |
+                          v
+                  +---------------+
+                  | Data Warehouse|
+                  | datos curados |
+                  +-------+-------+
+                          |
+              +-----------+-----------+
+              |                       |
+              v                       v
+     +----------------+      +------------------+
+     | Reportes/BI    |      | Modelos ML       |
+     | dashboards     |      | scoring/riesgo   |
+     +----------------+      +------------------+
+---
+
